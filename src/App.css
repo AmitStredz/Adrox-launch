@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Gilroy Bold";
+  src: url(../src/Assets/Gilroy-ExtraBold.otf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "Gilroy Light";
+  src: url(../src/Assets/Gilroy-Light.otf);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "Brolimo";
+  src: url(../src/Assets/BROLIMO-Regular.ttf);
+}
+body{
+  overflow-x: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.about-section {
+  background-image: url("../src/Assets/Full_Globe.png");
+  background-repeat: no-repeat;
+}
+
+.notify-sec {
+  background-image: url("../src/Assets/uranus.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.top-section {
+  background-image: url("../src/Assets/planets.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+}
+
+.bg-card {
+  background-image: url("../src/Assets/profileBg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.bg-card:hover .profile-name {
+  display: block;
+}
+
+.bg-card:hover img {
+  filter: brightness(0.5);
+}
+
+.drawer-bg .MuiPaper-root {
+  background-color: #8d5bff;
+}
+
+li {
+  list-style-type: none;
+}
+
+.card-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #2c0346; /* Dark purple background */
 }
-
-.App-link {
-  color: #61dafb;
+.card {
+  border-radius: 15px;
+  border: solid 3px #9a7fd1; /* Light purple border */
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  position: relative; /* For positioning text at the bottom */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card img {
+  width: 100%; /* Adjust as needed */
+  height: auto; /* Adjust as needed */
+  border-radius: 15px;
+}
+.card-title {
+  position: absolute;
+  bottom: 10px; /* Adjust as needed */
+  left: 10px; /* Adjust as needed */
+  color: white; /* Text color */
+  font-size: larger; /* Adjust as needed */
 }

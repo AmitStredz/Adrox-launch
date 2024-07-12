@@ -1,0 +1,133 @@
+.logo {
+  height: 50px;
+}
+
+.navLinks {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.connectWalletButton {
+  background: linear-gradient(to right, #531085, #a102f1) !important;
+  border-radius: 20px !important;
+  color: white !important;
+  text-transform: none !important;
+  max-width: 200px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+}
+
+.hero {
+  padding: 5vw 7vw;
+  /* padding-left: 0%;
+  padding-right: 0%; */
+  background: linear-gradient(135deg, #3b2c84 0%, #1a1a1a 100%);
+  color: white;
+}
+
+.heroContent {
+  argin-top: 1vw;
+}
+
+.heroText {
+  font-size: 4em;
+}
+
+.heroParagraph {
+  font-size: 1.7em;
+  width: 70%;
+  text-align: left;
+  font-weight: 500;
+  margin-top: 2vw;
+  line-height: 2.3vw;
+}
+
+.presaleInfo {
+  background: linear-gradient(180deg, #8d5bff80 35%, #ffffff 100%);
+  padding: 20px 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 60%;
+  height: 90%;
+  border: 1px solid white;
+}
+
+.buyNowButton {
+  padding: 0.75vw 7.5vw;
+  width: 100%;
+  margin-top: 20px;
+  background: linear-gradient(to right, #531085, #a102f1);
+  color: white;
+  border-radius: 20px;
+}
+
+.claimNowButton {
+  margin-top: 20px;
+  padding: 0.75vw 7vw;
+  border: 1px solid #8707cd;
+  border-radius: 20px;
+  color: #8707cd;
+}
+
+.section {
+  padding: 4vw 5vw;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 2.2vw;
+}
+
+.sectionParagraph {
+  padding: 0vw 25vw;
+  line-height: 2vw;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5vw;
+}
+
+.feature {
+  width: 30%;
+  text-align: left;
+}
+
+.featureTitle {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.featureParagraph {
+  font-size: 1em;
+}
+
+.footer {
+  padding: 50px 20px;
+  background-color: #290d42;
+  color: white;
+  text-align: center;
+}
+
+.footerSections {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.footerLogo {
+  height: 50px;
+}
+
+
+@media (max-width: 500px) {
+  .about-section{
+    margin-top: 7rem;
+  }
+}
