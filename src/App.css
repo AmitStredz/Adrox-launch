@@ -7,6 +7,9 @@
   font-family: "Gilroy Light";
   src: url(../src/Assets/Gilroy-Light.otf);
 }
+.hi{
+  height: 10px;
+}
 
 @font-face {
   font-family: "Brolimo";
